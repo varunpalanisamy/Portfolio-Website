@@ -20,12 +20,14 @@ My goal is to contribute to innovative tech solutions and to continuously grow a
     """
     st.info(content)
 
-content2 = """
 
-You can find some of the apps I have built. Feel free to contact me!
+st.divider()
 
-"""
-st.write(content2)
+st.markdown("<h3 style='text-align: center; color: white;'>Check out the apps I have built bellow!</h1>", unsafe_allow_html=True)
+
+st.markdown("<h3 style='text-align: center; color: white;'>Feel free to contact me!</h2>", unsafe_allow_html=True)
+
+st.divider()
 
 
 col3,empty_col, col4 = st.columns([1.5,0.5,1.5])
