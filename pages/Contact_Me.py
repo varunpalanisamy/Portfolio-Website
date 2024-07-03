@@ -2,7 +2,8 @@ import streamlit as st
 from send_email import send_email
 
 
-st.header("Contact Me")
+st.markdown("<h1 style='text-align: center; color: White;'>Contact Me</h1>", unsafe_allow_html=True)
+
 
 with st.form(key="email_forms"):
     user_email = st.text_input("Enter your email address:")
