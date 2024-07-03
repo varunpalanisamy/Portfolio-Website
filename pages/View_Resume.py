@@ -3,7 +3,7 @@ import streamlit as st
 
 st.markdown("<h1 style='text-align: center; color: White;'>View Resume</h1>", unsafe_allow_html=True)
 
-r
+
 def displayPDF(file):
     with open(file, "rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
