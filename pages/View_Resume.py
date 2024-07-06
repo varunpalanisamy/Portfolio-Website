@@ -10,7 +10,7 @@ def displayPDF(file):
 
     pdf_display = f'''
         <div style="display: flex; justify-content: center;">
-            <iframe src="data:application/pdf;base64,{base64_pdf}" width="960" height="1000" type="application/pdf"></iframe>
+            <iframe src="data:application/pdf;base64, {base64_pdf}" width="960" height="1000" type="application/pdf"></iframe>
         </div>
     '''
     st.markdown(pdf_display, unsafe_allow_html=True)
